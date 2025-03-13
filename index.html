@@ -2,19 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Crafting Apnapan</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
     />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="syle.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
       <div class="container">
-        <a class="navbar-brand" href="#">Crafting Apnapan</a>
+        <a class="navbar-brand" href="#">
+          <img src="images/play.jpg" alt="Crafting Apnapan Logo" class="logo" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -25,67 +27,44 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#products">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <header class="hero">
+    <!-- Hero Section -->
+    <header class="hero-section text-center">
       <div class="container">
-        <h1>Welcome to Crafting Apnapan</h1>
-        <p>Your go-to destination for authentic handcrafted products.</p>
-        <a href="#about" class="btn btn-warning">Learn More</a>
+        <h1>Celebrating Craftsmanship & Tradition</h1>
+        <p>
+          Discover beautifully handcrafted products that blend artistry and
+          culture.
+        </p>
+        <a href="#" class="btn btn-custom">Shop Now</a>
       </div>
     </header>
 
-    <section id="about" class="py-5">
+    <!-- About Section -->
+    <section class="about-section">
       <div class="container text-center">
         <h2>About Us</h2>
         <p>
-          We celebrate the beauty of handmade crafts, bringing traditional and
-          contemporary artisanship to your doorstep.
+          We bring you exquisite handcrafted products made with love and
+          tradition. Each piece is a reflection of skilled artisans preserving
+          heritage through their craft.
         </p>
       </div>
     </section>
 
-    <section id="products" class="bg-light py-5">
-      <div class="container text-center">
-        <h2>Our Products</h2>
-        <div class="row">
-          <div class="col-md-4">
-            <h4>Handmade Products</h4>
-            <p>Exquisite handcrafted products with cultural essence.</p>
-          </div>
-          <div class="col-md-4">
-            <h4>Home Decor</h4>
-            <p>Unique and artistic decor pieces for your home.</p>
-          </div>
-          <div class="col-md-4">
-            <h4>Traditional Craftforms</h4>
-            <p>Authentic handcrafted with rich heritage.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="py-5">
-      <div class="container text-center">
-        <h2>Contact Us</h2>
-        <p>Email: support@craftingapnapan.com | Phone: +91 9876543210</p>
-      </div>
-    </section>
-
-    <footer class="bg-primary text-white text-center py-3">
+    <!-- Footer -->
+    <footer class="footer text-center">
       <p>&copy; 2025 Crafting Apnapan. All Rights Reserved.</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
